@@ -26,7 +26,7 @@ python3 -m uvicorn api:app --reload
 http://localhost:8000/docs#/ - Should return a SwaggerUI page
 
 
-### Posting new data to the model 
+### Posting new data to the model
 that will return a Prediction json object:
 
 ```
