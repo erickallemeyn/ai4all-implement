@@ -5,11 +5,11 @@
 
 ### Installing the Projct:
 ```
-cd ai4all
+cd ai4all-implement
 pip3 install -r requirements.txt
 ```
 ### Training the Model:
-This will output 2 files in the results directory, model.pkl and model_columns.pkl
+This will output 2 files in the directory, model.pkl and model_columns.pkl
 ```
 python3 model.py
 ```

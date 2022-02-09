@@ -21,12 +21,12 @@ def train():
     model.fit(x_train, y_train)
 
     # Save the model via python pickling
-    joblib.dump(model, 'results/model.pkl')
-    print("Model saved to results/model.pkl")
+    joblib.dump(model, 'model.pkl')
+    print("Model saved to model.pkl")
 
     # Saving the data columns from training, so that we can reference them later
-    joblib.dump(independent_vars, 'results/model_columns.pkl')
-    print("Models columns saved to results/model_columns.pkl")
+    joblib.dump(independent_vars, 'model_columns.pkl')
+    print("Models columns saved to model_columns.pkl")
 
 
 if __name__ == '__main__':

@@ -8,10 +8,10 @@ import pandas as pd
 
 app = FastAPI()
 
-regression = joblib.load("results/model.pkl")
+regression = joblib.load("model.pkl")
 print ('Model loaded')
 
-independent_vars = joblib.load("results/model_columns.pkl")
+independent_vars = joblib.load("model_columns.pkl")
 print ('Model columns loaded')
 
 
