@@ -3,7 +3,7 @@
 
 -----
 
-### Installing the Projct:
+### Installing the Project:
 ```
 cd ai4all-implement
 pip3 install -r requirements.txt
@@ -30,7 +30,7 @@ http://localhost:8000/docs#/ - Should return a SwaggerUI page
 that will return a Prediction json object:
 
 ```
-curl -d '{"Age": 7, "Fare": 203.3}' -H 'Content-Type: application/json' https://localhost:8000/prediction/
+curl -d '{"Age": 7, "Fare": 203.3}' -H 'Content-Type: application/json' http://localhost:8000/prediction/
 ```
 
 --Expected responses (the model will choose one depending on input):
